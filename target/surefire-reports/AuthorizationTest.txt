@@ -1,0 +1,172 @@
+-------------------------------------------------------------------------------
+Test set: AuthorizationTest
+-------------------------------------------------------------------------------
+Tests run: 8, Failures: 8, Errors: 0, Skipped: 0, Time elapsed: 41.773 s <<< FAILURE! - in AuthorizationTest
+shouldAuthWithButtonPersonalAccount(AuthorizationTest)  Time elapsed: 13.591 s  <<< FAILURE!
+com.codeborne.selenide.ex.ElementNotFound: 
+Element not found {By.xpath: .//button[text()='Зарегистрироваться']}
+Expected: interactable
+Screenshot: file:/D:/projectQA/Diplom3.3/Diplom3.3/build/reports/tests/1681679030058.0.png
+Page source: file:/D:/projectQA/Diplom3.3/Diplom3.3/build/reports/tests/1681679030058.0.html
+Timeout: 4 s.
+Caused by: NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":".//button[text()='Зарегистрироваться']"}
+	at AuthorizationTest.setUp(AuthorizationTest.java:24)
+Caused by: org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":".//button[text()='Зарегистрироваться']"}
+  (Session info: chrome=112.0.5615.87)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.8.3', revision: 'e5e76298c3'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.18'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [4a1ea996fa46eff6ca5a19c82fb915c7, findElement {using=xpath, value=.//button[text()='Зарегистрироваться']}]
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 112.0.5615.87, chrome: {chromedriverVersion: 112.0.5615.49 (bd2a7bcb881c..., userDataDir: C:\Users\3EC2~1\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:49873}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:49873/devtoo..., se:cdpVersion: 112.0.5615.87, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: accept, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 4a1ea996fa46eff6ca5a19c82fb915c7
+	at AuthorizationTest.setUp(AuthorizationTest.java:24)
+
+shouldAuthWithButtonPersonalAccount(AuthorizationTest)  Time elapsed: 13.597 s  <<< FAILURE!
+com.codeborne.selenide.ex.ElementNotFound: 
+Element not found {By.xpath: //li[@class='Account_listItem__35dAP'][3]//button}
+Expected: interactable
+Screenshot: file:/D:/projectQA/Diplom3.3/Diplom3.3/build/reports/tests/1681679034384.1.png
+Page source: file:/D:/projectQA/Diplom3.3/Diplom3.3/build/reports/tests/1681679034384.1.html
+Timeout: 4 s.
+Caused by: NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//li[@class='Account_listItem__35dAP'][3]//button"}
+	at AuthorizationTest.clearBrowser(AuthorizationTest.java:29)
+Caused by: org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//li[@class='Account_listItem__35dAP'][3]//button"}
+  (Session info: chrome=112.0.5615.87)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.8.3', revision: 'e5e76298c3'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.18'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [4a1ea996fa46eff6ca5a19c82fb915c7, findElement {using=xpath, value=//li[@class='Account_listItem__35dAP'][3]//button}]
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 112.0.5615.87, chrome: {chromedriverVersion: 112.0.5615.49 (bd2a7bcb881c..., userDataDir: C:\Users\3EC2~1\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:49873}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:49873/devtoo..., se:cdpVersion: 112.0.5615.87, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: accept, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 4a1ea996fa46eff6ca5a19c82fb915c7
+	at AuthorizationTest.clearBrowser(AuthorizationTest.java:29)
+
+shouldAuthWithButtonRegisterPage(AuthorizationTest)  Time elapsed: 9.306 s  <<< FAILURE!
+com.codeborne.selenide.ex.ElementNotFound: 
+Element not found {By.xpath: .//button[text()='Зарегистрироваться']}
+Expected: interactable
+Screenshot: file:/D:/projectQA/Diplom3.3/Diplom3.3/build/reports/tests/1681679039485.2.png
+Page source: file:/D:/projectQA/Diplom3.3/Diplom3.3/build/reports/tests/1681679039485.2.html
+Timeout: 4 s.
+Caused by: NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":".//button[text()='Зарегистрироваться']"}
+	at AuthorizationTest.setUp(AuthorizationTest.java:24)
+Caused by: org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":".//button[text()='Зарегистрироваться']"}
+  (Session info: chrome=112.0.5615.87)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.8.3', revision: 'e5e76298c3'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.18'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [4a1ea996fa46eff6ca5a19c82fb915c7, findElement {using=xpath, value=.//button[text()='Зарегистрироваться']}]
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 112.0.5615.87, chrome: {chromedriverVersion: 112.0.5615.49 (bd2a7bcb881c..., userDataDir: C:\Users\3EC2~1\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:49873}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:49873/devtoo..., se:cdpVersion: 112.0.5615.87, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: accept, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 4a1ea996fa46eff6ca5a19c82fb915c7
+	at AuthorizationTest.setUp(AuthorizationTest.java:24)
+
+shouldAuthWithButtonRegisterPage(AuthorizationTest)  Time elapsed: 9.317 s  <<< FAILURE!
+com.codeborne.selenide.ex.ElementNotFound: 
+Element not found {By.xpath: //li[@class='Account_listItem__35dAP'][3]//button}
+Expected: interactable
+Screenshot: file:/D:/projectQA/Diplom3.3/Diplom3.3/build/reports/tests/1681679043819.3.png
+Page source: file:/D:/projectQA/Diplom3.3/Diplom3.3/build/reports/tests/1681679043819.3.html
+Timeout: 4 s.
+Caused by: NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//li[@class='Account_listItem__35dAP'][3]//button"}
+	at AuthorizationTest.clearBrowser(AuthorizationTest.java:29)
+Caused by: org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//li[@class='Account_listItem__35dAP'][3]//button"}
+  (Session info: chrome=112.0.5615.87)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.8.3', revision: 'e5e76298c3'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.18'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [4a1ea996fa46eff6ca5a19c82fb915c7, findElement {using=xpath, value=//li[@class='Account_listItem__35dAP'][3]//button}]
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 112.0.5615.87, chrome: {chromedriverVersion: 112.0.5615.49 (bd2a7bcb881c..., userDataDir: C:\Users\3EC2~1\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:49873}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:49873/devtoo..., se:cdpVersion: 112.0.5615.87, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: accept, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 4a1ea996fa46eff6ca5a19c82fb915c7
+	at AuthorizationTest.clearBrowser(AuthorizationTest.java:29)
+
+shouldAuthWithButtonAuthInAccount(AuthorizationTest)  Time elapsed: 9.301 s  <<< FAILURE!
+com.codeborne.selenide.ex.ElementNotFound: 
+Element not found {By.xpath: .//button[text()='Зарегистрироваться']}
+Expected: interactable
+Screenshot: file:/D:/projectQA/Diplom3.3/Diplom3.3/build/reports/tests/1681679048803.4.png
+Page source: file:/D:/projectQA/Diplom3.3/Diplom3.3/build/reports/tests/1681679048803.4.html
+Timeout: 4 s.
+Caused by: NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":".//button[text()='Зарегистрироваться']"}
+	at AuthorizationTest.setUp(AuthorizationTest.java:24)
+Caused by: org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":".//button[text()='Зарегистрироваться']"}
+  (Session info: chrome=112.0.5615.87)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.8.3', revision: 'e5e76298c3'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.18'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [4a1ea996fa46eff6ca5a19c82fb915c7, findElement {using=xpath, value=.//button[text()='Зарегистрироваться']}]
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 112.0.5615.87, chrome: {chromedriverVersion: 112.0.5615.49 (bd2a7bcb881c..., userDataDir: C:\Users\3EC2~1\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:49873}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:49873/devtoo..., se:cdpVersion: 112.0.5615.87, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: accept, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 4a1ea996fa46eff6ca5a19c82fb915c7
+	at AuthorizationTest.setUp(AuthorizationTest.java:24)
+
+shouldAuthWithButtonAuthInAccount(AuthorizationTest)  Time elapsed: 9.316 s  <<< FAILURE!
+com.codeborne.selenide.ex.ElementNotFound: 
+Element not found {By.xpath: //li[@class='Account_listItem__35dAP'][3]//button}
+Expected: interactable
+Screenshot: file:/D:/projectQA/Diplom3.3/Diplom3.3/build/reports/tests/1681679053138.5.png
+Page source: file:/D:/projectQA/Diplom3.3/Diplom3.3/build/reports/tests/1681679053138.5.html
+Timeout: 4 s.
+Caused by: NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//li[@class='Account_listItem__35dAP'][3]//button"}
+	at AuthorizationTest.clearBrowser(AuthorizationTest.java:29)
+Caused by: org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//li[@class='Account_listItem__35dAP'][3]//button"}
+  (Session info: chrome=112.0.5615.87)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.8.3', revision: 'e5e76298c3'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.18'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [4a1ea996fa46eff6ca5a19c82fb915c7, findElement {using=xpath, value=//li[@class='Account_listItem__35dAP'][3]//button}]
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 112.0.5615.87, chrome: {chromedriverVersion: 112.0.5615.49 (bd2a7bcb881c..., userDataDir: C:\Users\3EC2~1\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:49873}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:49873/devtoo..., se:cdpVersion: 112.0.5615.87, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: accept, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 4a1ea996fa46eff6ca5a19c82fb915c7
+	at AuthorizationTest.clearBrowser(AuthorizationTest.java:29)
+
+shouldAuthWithButtonForgotPassword(AuthorizationTest)  Time elapsed: 9.306 s  <<< FAILURE!
+com.codeborne.selenide.ex.ElementNotFound: 
+Element not found {By.xpath: .//button[text()='Зарегистрироваться']}
+Expected: interactable
+Screenshot: file:/D:/projectQA/Diplom3.3/Diplom3.3/build/reports/tests/1681679058157.6.png
+Page source: file:/D:/projectQA/Diplom3.3/Diplom3.3/build/reports/tests/1681679058157.6.html
+Timeout: 4 s.
+Caused by: NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":".//button[text()='Зарегистрироваться']"}
+	at AuthorizationTest.setUp(AuthorizationTest.java:24)
+Caused by: org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":".//button[text()='Зарегистрироваться']"}
+  (Session info: chrome=112.0.5615.87)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.8.3', revision: 'e5e76298c3'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.18'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [4a1ea996fa46eff6ca5a19c82fb915c7, findElement {using=xpath, value=.//button[text()='Зарегистрироваться']}]
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 112.0.5615.87, chrome: {chromedriverVersion: 112.0.5615.49 (bd2a7bcb881c..., userDataDir: C:\Users\3EC2~1\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:49873}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:49873/devtoo..., se:cdpVersion: 112.0.5615.87, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: accept, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 4a1ea996fa46eff6ca5a19c82fb915c7
+	at AuthorizationTest.setUp(AuthorizationTest.java:24)
+
+shouldAuthWithButtonForgotPassword(AuthorizationTest)  Time elapsed: 9.308 s  <<< FAILURE!
+com.codeborne.selenide.ex.ElementNotFound: 
+Element not found {By.xpath: //li[@class='Account_listItem__35dAP'][3]//button}
+Expected: interactable
+Screenshot: file:/D:/projectQA/Diplom3.3/Diplom3.3/build/reports/tests/1681679062462.7.png
+Page source: file:/D:/projectQA/Diplom3.3/Diplom3.3/build/reports/tests/1681679062462.7.html
+Timeout: 4 s.
+Caused by: NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//li[@class='Account_listItem__35dAP'][3]//button"}
+	at AuthorizationTest.clearBrowser(AuthorizationTest.java:29)
+Caused by: org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//li[@class='Account_listItem__35dAP'][3]//button"}
+  (Session info: chrome=112.0.5615.87)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.8.3', revision: 'e5e76298c3'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.18'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [4a1ea996fa46eff6ca5a19c82fb915c7, findElement {using=xpath, value=//li[@class='Account_listItem__35dAP'][3]//button}]
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 112.0.5615.87, chrome: {chromedriverVersion: 112.0.5615.49 (bd2a7bcb881c..., userDataDir: C:\Users\3EC2~1\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:49873}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:49873/devtoo..., se:cdpVersion: 112.0.5615.87, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: accept, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 4a1ea996fa46eff6ca5a19c82fb915c7
+	at AuthorizationTest.clearBrowser(AuthorizationTest.java:29)
+

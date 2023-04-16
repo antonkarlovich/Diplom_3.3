@@ -1,0 +1,46 @@
+-------------------------------------------------------------------------------
+Test set: RegistrationTest
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 9.903 s <<< FAILURE! - in RegistrationTest
+checkRegisterShortPassword(RegistrationTest)  Time elapsed: 4.999 s  <<< FAILURE!
+com.codeborne.selenide.ex.ElementNotFound: 
+Element not found {By.xpath: .//button[text()='Зарегистрироваться']}
+Expected: interactable
+Screenshot: file:/D:/projectQA/Diplom3.3/Diplom3.3/build/reports/tests/1681679100035.15.png
+Page source: file:/D:/projectQA/Diplom3.3/Diplom3.3/build/reports/tests/1681679100035.15.html
+Timeout: 4 s.
+Caused by: NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":".//button[text()='Зарегистрироваться']"}
+	at RegistrationTest.checkRegisterShortPassword(RegistrationTest.java:37)
+Caused by: org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":".//button[text()='Зарегистрироваться']"}
+  (Session info: chrome=112.0.5615.87)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.8.3', revision: 'e5e76298c3'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.18'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [4a1ea996fa46eff6ca5a19c82fb915c7, findElement {using=xpath, value=.//button[text()='Зарегистрироваться']}]
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 112.0.5615.87, chrome: {chromedriverVersion: 112.0.5615.49 (bd2a7bcb881c..., userDataDir: C:\Users\3EC2~1\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:49873}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:49873/devtoo..., se:cdpVersion: 112.0.5615.87, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: accept, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 4a1ea996fa46eff6ca5a19c82fb915c7
+	at RegistrationTest.checkRegisterShortPassword(RegistrationTest.java:37)
+
+checkRegister(RegistrationTest)  Time elapsed: 4.9 s  <<< FAILURE!
+com.codeborne.selenide.ex.ElementNotFound: 
+Element not found {By.xpath: .//button[text()='Зарегистрироваться']}
+Expected: interactable
+Screenshot: file:/D:/projectQA/Diplom3.3/Diplom3.3/build/reports/tests/1681679104947.16.png
+Page source: file:/D:/projectQA/Diplom3.3/Diplom3.3/build/reports/tests/1681679104947.16.html
+Timeout: 4 s.
+Caused by: NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":".//button[text()='Зарегистрироваться']"}
+	at RegistrationTest.checkRegister(RegistrationTest.java:24)
+Caused by: org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":".//button[text()='Зарегистрироваться']"}
+  (Session info: chrome=112.0.5615.87)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.8.3', revision: 'e5e76298c3'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.18'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [4a1ea996fa46eff6ca5a19c82fb915c7, findElement {using=xpath, value=.//button[text()='Зарегистрироваться']}]
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 112.0.5615.87, chrome: {chromedriverVersion: 112.0.5615.49 (bd2a7bcb881c..., userDataDir: C:\Users\3EC2~1\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:49873}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:49873/devtoo..., se:cdpVersion: 112.0.5615.87, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: accept, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 4a1ea996fa46eff6ca5a19c82fb915c7
+	at RegistrationTest.checkRegister(RegistrationTest.java:24)
+

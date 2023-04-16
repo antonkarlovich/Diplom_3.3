@@ -1,0 +1,7 @@
+pageobject\ForgotPasswordPage.class
+pageobject\RegistrationPage.class
+pageobject\MainPage.class
+usermodel\User.class
+usermodel\GenerateUser.class
+pageobject\AuthPage.class
+pageobject\PersonalAccountPage.class

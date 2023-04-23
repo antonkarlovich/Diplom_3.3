@@ -1,0 +1,67 @@
+-------------------------------------------------------------------------------
+Test set: MoveToPageTest
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 3, Errors: 0, Skipped: 0, Time elapsed: 13.934 s <<< FAILURE! - in MoveToPageTest
+moveToPersonalAccount(MoveToPageTest)  Time elapsed: 4.883 s  <<< FAILURE!
+com.codeborne.selenide.ex.ElementNotFound: 
+Element not found {By.xpath: .//button[text()='Зарегистрироваться']}
+Expected: interactable
+Screenshot: file:/D:/projectQA/Diplom3.3/Diplom3.3/build/reports/tests/1681679085979.12.png
+Page source: file:/D:/projectQA/Diplom3.3/Diplom3.3/build/reports/tests/1681679085979.12.html
+Timeout: 4 s.
+Caused by: NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":".//button[text()='Зарегистрироваться']"}
+	at MoveToPageTest.moveToPersonalAccount(MoveToPageTest.java:28)
+Caused by: org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":".//button[text()='Зарегистрироваться']"}
+  (Session info: chrome=112.0.5615.87)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.8.3', revision: 'e5e76298c3'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.18'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [4a1ea996fa46eff6ca5a19c82fb915c7, findElement {using=xpath, value=.//button[text()='Зарегистрироваться']}]
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 112.0.5615.87, chrome: {chromedriverVersion: 112.0.5615.49 (bd2a7bcb881c..., userDataDir: C:\Users\3EC2~1\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:49873}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:49873/devtoo..., se:cdpVersion: 112.0.5615.87, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: accept, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 4a1ea996fa46eff6ca5a19c82fb915c7
+	at MoveToPageTest.moveToPersonalAccount(MoveToPageTest.java:28)
+
+moveToStellarBurger(MoveToPageTest)  Time elapsed: 4.542 s  <<< FAILURE!
+com.codeborne.selenide.ex.ElementNotFound: 
+Element not found {By.xpath: .//p[text()='Личный Кабинет']}
+Expected: interactable
+Screenshot: file:/D:/projectQA/Diplom3.3/Diplom3.3/build/reports/tests/1681679090469.13.png
+Page source: file:/D:/projectQA/Diplom3.3/Diplom3.3/build/reports/tests/1681679090469.13.html
+Timeout: 4 s.
+Caused by: NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":".//p[text()='Личный Кабинет']"}
+	at MoveToPageTest.moveToStellarBurger(MoveToPageTest.java:38)
+Caused by: org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":".//p[text()='Личный Кабинет']"}
+  (Session info: chrome=112.0.5615.87)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.8.3', revision: 'e5e76298c3'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.18'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [4a1ea996fa46eff6ca5a19c82fb915c7, findElement {using=xpath, value=.//p[text()='Личный Кабинет']}]
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 112.0.5615.87, chrome: {chromedriverVersion: 112.0.5615.49 (bd2a7bcb881c..., userDataDir: C:\Users\3EC2~1\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:49873}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:49873/devtoo..., se:cdpVersion: 112.0.5615.87, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: accept, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 4a1ea996fa46eff6ca5a19c82fb915c7
+	at MoveToPageTest.moveToStellarBurger(MoveToPageTest.java:38)
+
+moveToConstructor(MoveToPageTest)  Time elapsed: 4.5 s  <<< FAILURE!
+com.codeborne.selenide.ex.ElementNotFound: 
+Element not found {By.xpath: .//p[text()='Личный Кабинет']}
+Expected: interactable
+Screenshot: file:/D:/projectQA/Diplom3.3/Diplom3.3/build/reports/tests/1681679094977.14.png
+Page source: file:/D:/projectQA/Diplom3.3/Diplom3.3/build/reports/tests/1681679094977.14.html
+Timeout: 4 s.
+Caused by: NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":".//p[text()='Личный Кабинет']"}
+	at MoveToPageTest.moveToConstructor(MoveToPageTest.java:46)
+Caused by: org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":".//p[text()='Личный Кабинет']"}
+  (Session info: chrome=112.0.5615.87)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.8.3', revision: 'e5e76298c3'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.18'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [4a1ea996fa46eff6ca5a19c82fb915c7, findElement {using=xpath, value=.//p[text()='Личный Кабинет']}]
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 112.0.5615.87, chrome: {chromedriverVersion: 112.0.5615.49 (bd2a7bcb881c..., userDataDir: C:\Users\3EC2~1\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:49873}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:49873/devtoo..., se:cdpVersion: 112.0.5615.87, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: accept, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 4a1ea996fa46eff6ca5a19c82fb915c7
+	at MoveToPageTest.moveToConstructor(MoveToPageTest.java:46)
+

@@ -1,3 +1,4 @@
+import org.junit.Assert;
 import org.junit.Test;
 import pageobject.MainPage;
 
@@ -5,21 +6,20 @@ public class ConstructorTest {
     MainPage mainPage = new MainPage();
     @Test
     public void moveToBuns() {
-        mainPage.openPage()
-                .sousesClick()
-                .bunsClick()
-                .checkSectionIngredients("Булки");
+        boolean result = mainPage.openPage()
+                .clickAndCheckSectionBuns();
+        Assert.assertTrue("Переключение на секцию соусы не выполнено", result);
     }
     @Test
     public void moveToSouses() {
-        mainPage.openPage()
-                .sousesClick()
-                .checkSectionIngredients("Соусы");
+        boolean result = mainPage.openPage()
+                        .clickAndCheckSectionSouses();
+        Assert.assertTrue("Переключение на секцию соусы не выполнено", result);
     }
     @Test
     public void moveToFillings() {
-        mainPage.openPage()
-                .fillingsClick()
-                .checkSectionIngredients("Начинки");
+        boolean result = mainPage.openPage()
+                .clickAndCheckSectionFilings();
+        Assert.assertTrue("Переключение на секцию соусы не выполнено", result);
     }
 }
